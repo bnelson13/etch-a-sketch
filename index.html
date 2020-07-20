@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+    
+<head>
+  <title>Etch A Sketch</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="Brad Nelson">
+  <meta name="description" content="Etch a Sketch Game">
+  <meta name="keywords" content="VALUE">
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Architects Daughter">
+</head>
+
+<body>
+  <header>
+    <div class="title">
+      <p>Etch A Sketch</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="outerBox">
+      <div class="innerBox" id="innerBox">
+      </div>
+      <div class="gridPopUp">Select Grid Size
+        <form class="numberForm" id="numberForm">
+          <input class="numberInput" type="number" min="5" max="125" step="1" value="15">
+          <button type="submit" class="numberOk">Ok</button>
+        </form>
+      </div>
+      <div class="colorPopUp">Select Color Pallette <br><br>
+          <form class="colorForm" id="colorForm">
+              <input type="radio" name="colorType" value="blackColor" checked><p id="blackColor">  Black</p>
+              <input type="radio" name="colorType" value="grayColor"><p id="grayColor">  Gray<br></p>
+              <input type="radio" name="colorType" value="rainbowColor"><p id="rainbowColor">  Random<br></p>
+              <input type="radio" name="colorType" value="greenColor"><p id="greenColor">  Greens<br></p>
+              <input type="radio" name="colorType" value="blueColor"><p id="blueColor">  Blues<br></p>
+              <input type="radio" name="colorType" value="redColor"><p id="redColor">  Reds<br><br></p>
+              <button type="submit" class="colorOk">Ok</button>
+            </form>
+      </div>
+      <div class="leftWheel">
+        <img title="Change Grid Size" alt="Change Grid Size" class="gridImage" src="Images/gridIcon2.png">
+      </div>
+      <div class="rightWheel">
+        <img title="Change Color" alt="Change Color" class="gridImage2" src="Images/colorWheel2.png">
+      </div>
+      <button class="resetButton">Clear</button>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

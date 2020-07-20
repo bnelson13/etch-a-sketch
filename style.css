@@ -1,0 +1,226 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body {
+    /* background-image: url("Images/bgGrid.jpg"); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #63B0BA;
+    
+}
+
+.title {
+    display: grid;
+    /* color: #E93F33; */
+    background: #FDA95B;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 5em;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 0 2rem white;
+    width: 650px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 50px 10px rgba(255,255,255);
+    border-radius: 50px;
+}
+
+.title p {
+    margin: 0;
+}
+
+.outerBox {
+    background: #E93F33;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px; 
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 1px 1px 50px 10px rgba(0,0,0,0.8);
+}
+
+.innerBox {
+    background: white;
+    width: 480px;
+    height: 480px;
+    margin-left: 60px;
+    margin-top: 60px;
+    position: absolute;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.gridItem {
+    position: relative;
+    border: .01em solid rgba(0,0,0,0.3);
+}
+
+.gridItem:hover {
+    background: black;
+}
+
+.gridPopUp {
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 31%;
+    visibility: hidden;
+    background-color: #63B0BA;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow:  0px 20px 20px rgba(0,0,0,0.2),
+    0px 5px 10px rgba(0,0,0,0.2),
+    /*long bottom shadow*/
+    0px 0px 50px rgba(0,0,0,0.4),
+    /*right shadow*/
+    30px 50px 50px rgba(0,0,0,0.2),
+    /*left shadow*/
+    -30px 50px 50px rgba(0,0,0,0.2),
+    /*right inset*/
+    inset 20px 0px 60px rgba(0,0,0,0.1),
+    /*left inset*/
+    inset -20px 0px 60px rgba(0,0,0,0.1);  
+}
+
+.colorPopUp {
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    padding: 20px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 31%;
+    background-color: #63B0BA;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow:  0px 20px 20px rgba(0,0,0,0.2),
+    0px 5px 10px rgba(0,0,0,0.2),
+    /*long bottom shadow*/
+    0px 0px 50px rgba(0,0,0,0.4),
+    /*right shadow*/
+    30px 50px 50px rgba(0,0,0,0.2),
+    /*left shadow*/
+    -30px 50px 50px rgba(0,0,0,0.2),
+    /*right inset*/
+    inset 20px 0px 60px rgba(0,0,0,0.1),
+    /*left inset*/
+    inset -20px 0px 60px rgba(0,0,0,0.1);  
+}
+
+.numberForm {
+    display: block;
+}
+
+.numberInput {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.colorForm {
+    display: block;
+    line-height: 150%;
+    text-align: left;
+}
+
+.colorForm input {
+    margin-left: 65px;
+}
+
+.colorForm button {
+    margin-left: 80px;
+}
+
+#blackColor {
+    color: black;
+    display: inline;
+}
+
+#grayColor {
+    color: gray;
+    display: inline;
+}
+
+#rainbowColor {
+    color: purple;
+    display: inline;
+}
+
+#greenColor {
+    color: green;
+    display: inline;
+}
+
+#blueColor {
+    color: blue;
+    display: inline;
+}
+
+#redColor {
+    color: red;
+    display: inline;
+}
+
+.leftWheel {
+    background: white;
+    position: absolute;
+    margin-left: 13px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 540px;
+    box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.3)
+}
+
+.leftWheel:hover {
+    background: yellow;
+}
+
+.gridImage {
+    height: 30px;
+    width: 30px;
+    display: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.gridImage2 {
+    height: 40px;
+    width: 40px;
+    display: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.resetButton {
+    display: absolute;
+    margin-top: 560px;
+    margin-left: 280px;
+}
+.rightWheel {
+    background: white;
+    position: absolute;
+    margin-left: 540px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 540px;
+    box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.3)
+}
+
+.rightWheel:hover {
+    background: yellow;
+}
